@@ -1,0 +1,27 @@
+-x
+objective-c
+-arch
+arm64
+-std=gnu99
+-fobjc-arc
+-fmodules
+-gmodules
+-fmodules-cache-path=/Users/davalcato/Library/Developer/Xcode/DerivedData/ModuleCache
+-fbuild-session-file=/Users/davalcato/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation
+-fpascal-strings
+-O0
+-DDEBUG=1
+-DOBJC_OLD_DISPATCH_PROTOTYPES=0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk
+-miphoneos-version-min=9.0
+-g
+-fembed-bitcode-marker
+-iquote
+-iquote
+-I/Users/davalcato/Documents/Flappy Bird/Build/Products/Debug-iphoneos/include
+-F/Users/davalcato/Documents/Flappy Bird/Build/Products/Debug-iphoneos
+aarch64-apple-darwin16.3.0
+"4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)"
+SDK_PRODUCT_BUILD_VERSION=14B72
+14B72

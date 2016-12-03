@@ -2,7 +2,7 @@
 //  ViewController.m
 //  Flappy Bird
 //
-//  Created by Daval Cato on 4/13/14.
+//  Created by Daval Cato on 5/13/14.
 //  Copyright (c) 2014 Daval Cato. All rights reserved.
 //
 
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad
 {
+    
+    HighScoreNumber = [[NSUserDefaults standardUserDefaults] integerForKey:@"HighScoreSaved"];
+    HighScore.text = [NSString stringWithFormat:@"High Score: %li", (long)HighScoreNumber];
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
